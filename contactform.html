@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <title>Olá World</title>
+    
+     <meta charset="utf-8"/>
+     <meta name="description" content="learning brazilian portuguese website,culture,tourism">
+     <meta name="keywords" content="language, brazil, brasil, portuguese, brazilian portuguese,culture,tourism">
+     <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+    
+    <link rel="icon" type="image/png" href="images/logo.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/logo.png" sizes="16x16" />
+
+    
+</head>
+
+<article class="form">
+
+</article>
+
+<style> 
+
+label {
+                float: left;
+                width: 250px;
+                padding-left: 10px;
+                text-align: right;
+            }
+    
+    input {
+                margin-left: 1em;
+                margin-bottom: .5em;
+                width: 220px;
+            }
+
+    #button, #reset {
+                margin-top: 5.5em;
+                width: 8em;
+                background-color: orange;
+                border: 2px solid black;
+            }
+    
+    input[type="checkbox"] {width: 15px;}
+    
+    #button {
+                margin-left: 138px;
+            }
+
+            #reset {
+                margin-left: 82px;
+            }
+
+            input[type="radio"] {width: 10px;}
+
+            .required {
+                font-weight: bold;
+                color: red;
+            }
+    
+    body {
+        
+        background: #1b64d8;
+    }
+    
+</style>
+
+
+<form action="http://foo.com" method="get">
+    
+                    <label for="first_name">First Name:<span class="required">*</span></label>
+                    <input type="text" name="first_name" id="first_name" autofocus required><br>
+                    <label for="last_name">Last Name:<span class="required">*</span></label>
+                    <input type="text" name="last_name" id="last_name" required><br>
+                    <label for="email">Email:<span class="required">*</span></label>
+                    <input type="email" name="email" id="email" required placeholder="john@example.com">
+                    <br>
+                   
+                    <label for="gender">Gender:</label>
+                    <input type="radio" id="gender" name="gender" value="male"> Male
+                    <input type="radio" id="gender" name="gender" value="female"> Female
+                    <input type="radio" id="gender" name="gender" value="other"> Other <br>
+    
+    
+                    <label for="internet">Where did you hear from us?<br></label>
+    
+                    <fieldset>
+                    <input type="checkbox" id="internet" name="internet" value="internet" checked> Internet <br>
+                    <input type="checkbox" class="marginl" id="hearr" name="paper" value="paper"> Newspaper <br>
+                    <input type="checkbox" class="marginl" id="hearr" name="friend" value="friend"> Friend <br>
+                    <input type="checkbox" class="marginl" id="hearr" name="add" value="Add"> Others <br>
+                    </fieldset>
+                    <br>
+                   
+                    <label for="message">Query : </label>
+                    <textarea cols="40"rows="5" id="message" name="message" placeholder="Your message must be less than 200 characters" data-maxlength="200"></textarea> <br>
+                   
+                    <input type="submit" name="submit" id="button" value="Submit">
+                    <input type="reset" name="reset" id="reset">
+                </form>
+
+      <footer>
+            
+            <ul> 
+                <li> <a href="index.html"> Home </a></li><!-- unordered list -->
+                <li> <a href=brazil.html> Brazil</a></li>  <!-- list -->
+                <li> <a href="brazilianportuguese.html"> Brazilian Portuguese</a></li> 
+                <li> <a href="tourism.html">Tourism</a></li>
+                 <li> <a href="map.html">Map</a></li>
+                <li> <a href="contactform.html"> Contact Us</a></li>
+           </ul>
+            
+            <small>&copy;Copyright Olá World 2021</small>
+        </footer>    
+    
+       
+  

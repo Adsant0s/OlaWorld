@@ -1,0 +1,460 @@
+
+h1 {
+    color: #ffffff;
+    font-family:'Brush Script MT', cursive;
+    font-size: 70px;
+    text-align: left;
+}
+
+nav {
+    background-color: #f0f03d;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    font-size: 45px;
+}
+
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 5px;
+}
+
+nav ul li {
+    list-style-type: none;
+    background-color: white;
+    color: green;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2 px solid green;
+    border-radius: 25px;
+    
+}
+
+nav ul li a
+{
+    color: #16be16;
+    text-decoration: none;
+    font-style: bold;
+    font-family:  cursive;
+    font-size: 20px;
+}
+
+
+header {
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: navajowhite;
+    border: 1px solid green;
+    background-color: #12aa12;
+    padding: 10px;
+}
+
+body{
+    background-color: #12aa12;
+    color: white;
+}
+
+
+#frontpic {
+    width: 35%;
+    border: 2 px solid white;
+    margin: 0 10px 0 10px;
+    float: left;
+    padding-bottom: 15px;
+}
+
+
+
+
+aside {
+     border: 1px solid yellow;
+    float: right;
+    width: 18%;
+    height: 17%
+  
+}
+
+aside ul li{
+    
+}
+aside ul li a{
+    color: #1131de;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+p
+{
+    text-align: justify;
+    padding: 2px;
+}
+#content {
+    float: left;
+    width: 80%;
+    margin-right: 15px;
+    border: 1px solid yellow;
+    padding-right: 5px;
+}
+
+#intro {
+    
+    font-size: 20px;
+    
+}
+
+footer {
+      clear: both;
+    border: 1 px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color:  #f0f03d;
+    
+    text-align: center;
+}
+footer ul li{
+    list-style-type: none;
+    background-color: white;
+    color: green;
+    display: inline;
+    padding: 5px;
+    margin: 3px;
+    border: 2 px solid green;
+    border-radius: 25px;
+}
+
+footer ul li a{
+    color: #16be16;
+    text-decoration: none;
+    font-style: bold;
+    font-family:  cursive;
+    font-size: 20px;
+}
+#brazil {
+    width: 40%;
+    
+   
+}
+
+h3 {
+    padding-left: 5px;
+    font-family: Calibri;
+    font-size: 30px;
+}
+
+ol {
+    font-size: 18px;
+}
+
+.brazil {
+    width: 250px;
+    float: left;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.brazilintro {
+    font-size: 20px;
+   
+}
+
+.history {
+    float: left;
+    width: 350px;
+}
+
+#brazilmapglobe {
+    width: 40%;
+    float: right;
+    padding-left: 15px;
+}
+
+#introbrazil {
+    text-align: justify-all;
+    padding-left: 15px;
+    font-size: 20px;
+    font-family: Calibri;
+}
+
+.historyPreCabralineEra {
+    font-family: Calibri;
+    font-size: 20px;
+    text-align: left;
+     
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.historytitle {
+    font-size: 50px;
+    text-align: center;
+}
+
+.amazon {
+    width: 29%;
+    
+}
+
+.braziliannative {
+    
+    float: justify; 
+    padding-left: 25px;
+}
+
+.PortugueseColonization {
+    font-family: Calibri;
+    font-size: 20px;
+    text-align:justify-all;
+    float:right;
+    
+}
+
+.PortugueseColonizationimage {
+    width:20%;
+    float: right;
+    padding-left: 15px;
+}
+
+.learning {
+    float: center;
+    color: #104e96;
+    font-family: Verdana;
+    font-size: 40px;
+}
+
+.musicopage {
+    text-align: center;
+    font-size: 40px;
+    color: #286264;
+    
+}
+
+.musicintro {
+    font-size: 30px;
+}
+
+#music1 {
+    width: 25%;
+}
+
+#intromusic {
+    font-size: 20px;
+}
+
+.historyukwuthportugal {
+    font-size: 20px;
+}
+
+.greeting {
+    font-size: 20px;
+}
+
+.etiquette {
+    font-size: 20px;
+}
+
+.bearings {
+    font-size: 20px;
+}
+
+.outandabout {
+    font-size: 20px;
+}
+
+.greetingpic {
+    float: left;
+    width: 350px;
+    padding-right: 15px;
+}
+
+
+
+
+
+.videocontentyoutube {
+    float: right;
+    width: 30%;
+    border: 2px solid white;
+    max-height: 320px;
+    min-height: 320px;
+    overflow: auto;
+    padding-left: 20px;
+    
+  
+    
+}
+
+
+.videocontent {
+    float: right;
+    width: 40%;
+    border: 2px solid white;
+    padding-left: 40px;
+    padding-top: 2px;
+    
+}
+
+
+
+.lencoismaranhaophoto {
+    width: 30%;
+    float: justify;
+    
+}
+
+.lencoismaranhao {
+     text-align: left;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.placestovisit {
+    
+}
+
+.logo {
+    float: left; height: 60px; width: 60px;
+}
+
+.brazilianportugueselanguage {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.sugarloaftext {
+ text-align: justify-all;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.sugarloafimage1 {
+ width: 40%;
+    float: justify;
+}
+
+.sugarloafimage2 {
+   width: 35%;
+    float:justify;
+    
+}
+
+.IguaçuFallstext {
+     text-align: justify;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-top: 40px;
+}
+
+.niagarafallsimagine {
+    width: 70%;
+    float: justify;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    
+}
+
+.christreedemertext {
+      text-align: left;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.christreedemerimagine {
+    float: center;
+    width: 50%;
+    padding-left: 200px;
+}
+
+
+.address {
+    
+    padding-top: 40px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+
+.map {
+    border: 0; float: left; margin-bottom: 3px;
+    margin-top: 40px;
+}
+
+#referencestext {
+    font-size: 20px;
+text-align: center;
+}
+
+.adresstext {
+    float: center;
+    font-size: 30px;
+    padding right: 50px;
+}
+table{
+    width: 100%;
+    border:2px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin:20px;
+}
+
+th, tr, td
+{
+    border: 2px solid black;
+    text-align: left;
+    
+}
+.background {
+    border: 2px solid black;
+    background: white;
+}
+
+.brazilianportuguesetext {
+    font-size: 20px;
+}
+
+.brazilianportuguesetitle {
+    font-size: 60px;
+}
+
+.col_details {
+    column-count: 2;
+    column-rule: 2px solid white;
+    column-gap: 50%
+    padding: 2px;
+}
+
+#image {
+    float: right;
+    width: 40%;
+}
+
+.backgroundImage1 {
+    background-image: url(../images/audio1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.backgroundImage2 {
+    background-image: url(../images/audio2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.brazilianportugueseportugal {
+    padding-top: 40px;
+}
+
+.
