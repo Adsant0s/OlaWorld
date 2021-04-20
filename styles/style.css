@@ -235,28 +235,8 @@ h4 {
     font-size: 40px;
 }
 
-.musicopage {
-    text-align: center;
-    font-size: 40px;
-    color: #286264;
-    
-}
 
-.musicintro {
-    font-size: 30px;
-}
 
-#music1 {
-    width: 25%;
-}
-
-#intromusic {
-    font-size: 20px;
-}
-
-.historyukwuthportugal {
-    font-size: 20px;
-}
 
 .greeting {
     font-size: 20px;
@@ -321,9 +301,7 @@ h4 {
     padding-right: 10px;
 }
 
-.placestovisit {
-    
-}
+
 
 .logo {
     float: left; height: 60px; width: 60px;
@@ -457,4 +435,3 @@ th, tr, td
     padding-top: 40px;
 }
 
-.
